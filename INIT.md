@@ -30,22 +30,20 @@ pnpm add -D prettier @vue/eslint-config-prettier
 "lint": "eslint --ext .js,.vue,.ts src --fix",
 "lint": "eslint --fix src/_.{ts,vue} && eslint --fix src/\*\*/_.{ts,vue}",
 
-### 代码提交规范
+## 集成 pinia
 
-pnpm add -D commitizen cz-conventional-changelog @commitlint/config-conventional @commitlint/cli commitlint-config-cz cz-customizable
+pnpm add pinia
 
-安装 husky
+## 集成 vue-router
 
-1.安装
-pnpm add husky lint-staged -D
+pnpm add vue-router
 
-2.生成 .husky 的文件夹
-npx husky install
+## 其他集成
 
-3.添加 hooks，会在 .husky 目录下生成一个 pre-commit 脚本文件
-npx husky add .husky/pre-commit "npx --no-install lint-staged"
+pnpm add vue-request axios @vueuse/core
 
-4.添加 commit-msg
-npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
+pnpm add -D sass vite-plugin-mock
 
-5. 使用 `git commit -m "message"` 就会看到 hook 生效了。
+## 自动导入集成
+
+pnpm add unplugin-auto-import -D
