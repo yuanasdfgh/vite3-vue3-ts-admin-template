@@ -1,0 +1,12 @@
+*.css
+*.less
+*.scss
+*.jpg
+*.png
+*.gif
+*.svg
+*vue.d.ts
+
+node_modules/
+dist/
+index.html
