@@ -46,4 +46,14 @@ pnpm add -D sass vite-plugin-mock
 
 ## 自动导入集成
 
+### api
+
 pnpm add unplugin-auto-import -D
+
+### components
+
+pnpm add unplugin-vue-components -D
+
+## UI 框架
+
+pnpm add -D naive-ui

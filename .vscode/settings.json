@@ -1,8 +1,8 @@
 {
-    // 保存时eslint自动修复错误
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    //保存自动格式化
-    "editor.formatOnSave": true
+  // 保存时eslint自动修复错误
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  //保存自动格式化
+  "editor.formatOnSave": true
 }

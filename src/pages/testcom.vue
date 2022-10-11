@@ -1,14 +1,14 @@
 <template>
-    <div>12124587</div>
+  <div>12124587</div>
 </template>
 
 <script setup lang="ts">
-const test = 1; //报错
-console.log(test);
+const test = 1 //报错
+console.log(test)
 
 function name(params?: number) {
-    console.log(params, '1212154');
+  console.log(params, '1212154')
 }
-name();
+name()
 </script>
 <style scoped></style>
