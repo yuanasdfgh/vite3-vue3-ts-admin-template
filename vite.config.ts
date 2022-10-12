@@ -5,6 +5,9 @@ import eslintPlugin from 'vite-plugin-eslint' //浏览器 eslint提示
 import AutoImport from 'unplugin-auto-import/vite' //自动导入插件
 import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
+// 引入Unocss
+import Unocss from 'unocss/vite'
+// import { presetUno, presetAttributify, presetIcons } from 'unocss'
 
 export default defineConfig({
   plugins: [
@@ -13,6 +16,7 @@ export default defineConfig({
       exclude: ['./node_modules/**'],
       cache: false,
     }),
+    Unocss(),
     AutoImport({
       dts: './auto-imports.d.ts',
       include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/, /\.md$/],

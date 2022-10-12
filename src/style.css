@@ -1,4 +1,32 @@
 :root {
+  --primary-color: #316c72;
+  --dark-bg: #18181c;
+}
+/* // * 方便unocss计算：1单位 = 0.25rem = 1px */
+html {
+  font-size: 4px; 
+}
+
+body {
+  font-size: 16px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html.dark {
+  background: var(--dark-bg);
+}
+i {
+  font-size: 16px;
+  display: inline-block;
+}
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -78,4 +106,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */

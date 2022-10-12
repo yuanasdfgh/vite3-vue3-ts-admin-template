@@ -57,3 +57,11 @@ pnpm add unplugin-vue-components -D
 ## UI 框架
 
 pnpm add -D naive-ui
+
+## unocss 以及预设
+
+pnpm add -D unocss @unocss/preset-uno @unocss/preset-attributify @unocss/preset-icons
+
+## icones 图标库
+
+pnpm add -D @iconify/json

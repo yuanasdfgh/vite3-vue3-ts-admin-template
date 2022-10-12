@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <n-button type="primary" size="medium">按钮</n-button>
-  </div>
+  <router-view></router-view>
 </template>
 
 <style scoped></style>
